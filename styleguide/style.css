@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: mr-eaves-xl-modern, sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    height: 100%;
+    padding-top: 0;
+    width: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #d7e8f2;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #111;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #818181;
+}
+
+/*Til at indikere hvilken side brugeren er på*/
+.active {
+    background-color: #4CAF50;
+}
+
+.main {
+    margin-left: 160px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.sidenavLogo {
+    text-align: center;
+}
+
+.logo {
+    width: 90%;
+    height: auto;
+}
+
+.styleGuideContent {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    margin: 0 auto;
+
+    width: 50%;
+    border: none;
+    height: 7px;
+    background: #177342;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
