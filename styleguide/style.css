@@ -170,16 +170,16 @@ hr {
 
 .styleGuideGridItem {
     margin-top: 2%;
+
 }
 
 .knap1 {
     background: linear-gradient(to bottom, #fed6d7 5%, #fed6d7 100%);
     background-color: #fed6d7;
-    border: 1px solid #fed6d7;
+    border: 3px solid #fed6d7;
     display: inline-block;
     cursor: pointer;
     color: #808080;
-    font-family: Arial;
     font-size: 17px;
     padding: 16px 31px;
     text-decoration: none;
@@ -195,15 +195,28 @@ hr {
     top: 1px;
 }
 
-.farveGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
+.knap2 {
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
+    border: 3px solid #e4e4e4;
+    display: inline-block;
+    cursor: pointer;
+    color: #808080;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
 }
 
-.farveText {
-    margin: auto;
+.knap2:hover {
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
 }
+
+.knap2:active {
+    position: relative;
+    top: 1px;
+}
+
 
 .farve1 {
     width: 100px;
