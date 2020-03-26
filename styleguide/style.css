@@ -69,11 +69,7 @@ html {
 
 
 
-
 /* Abdul kode section*/
-.centerH1 {
-    text-align: center;
-}
 
 /*BOX1*/
 .textBox1 {
@@ -94,7 +90,6 @@ html {
     color: #707070;
 }
 
-
 /*BOX2*/
 .textBox2 {
     height: auto;
@@ -102,6 +97,10 @@ html {
     margin-top: 1em;
     padding: 1em;
     background: url(imgtst.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: 0.8;
     color: #f5f5f5;
 }
 
