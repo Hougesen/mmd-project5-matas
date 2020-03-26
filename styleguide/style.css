@@ -29,7 +29,6 @@ html {
     background-color: #d7e8f2;
     overflow-x: hidden;
     padding-top: 20px;
-    border-right: 4px solid #A2A7A5;
 }
 
 .sidenav a {
@@ -68,7 +67,10 @@ html {
     height: auto;
 }
 
-
+.styleGuideContent {
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
 
 /* Abdul kode section*/
@@ -113,6 +115,7 @@ hr {
 
 .styleGuideGridItem {
     margin-top: 2%;
+    text-align: center;
 }
 
 .knap1 {
@@ -141,6 +144,7 @@ hr {
 .farveGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
 }
 
 .farveText {
