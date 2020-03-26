@@ -156,8 +156,7 @@ hr {
     height: 100px;
     border-radius: 13px;
     background: #fed6d7;
-    box-shadow: 7px 7px 14px #d8b6b7,
-        -7px -7px 14px #fff6f7;
+
 }
 
 .farve2 {
@@ -165,8 +164,7 @@ hr {
     height: 100px;
     border-radius: 13px;
     background: #F5F5F5;
-    box-shadow: 7px 7px 14px #d0d0d0,
-        -7px -7px 14px #ffffff;
+
 }
 
 
@@ -176,8 +174,7 @@ hr {
     height: 100px;
     border-radius: 13px;
     background: #E4E4E4;
-    box-shadow: 7px 7px 14px #c2c2c2,
-        -7px -7px 14px #ffffff;
+
 }
 
 .farve4 {
@@ -185,8 +182,7 @@ hr {
     height: 100px;
     border-radius: 13px;
     background: #707070;
-    box-shadow: 7px 7px 14px #5f5f5f,
-        -7px -7px 14px #818181;
+
 }
 
 
