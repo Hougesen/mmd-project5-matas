@@ -65,6 +65,7 @@ html {
 }
 
 .styleGuideContent {
+    margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -75,12 +76,45 @@ h1 {
 
 hr {
     margin: 0 auto;
-
     width: 100%;
     border: none;
     height: 6px;
     background: #d7e8f2;
     margin-bottom: 2%;
+}
+
+.styleGuideGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.styleGuideGridItem {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.knap1 {
+    background: linear-gradient(to bottom, #fed6d7 5%, #fed6d7 100%);
+    background-color: #fed6d7;
+    border: 1px solid #fed6d7;
+    display: inline-block;
+    cursor: pointer;
+    color: #808080;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+}
+
+.knap1:hover {
+    background: linear-gradient(to bottom, #fed6d7 5%, #fed6d7 100%);
+    background-color: #fed6d7;
+}
+
+.knap1:active {
+    position: relative;
+    top: 1px;
 }
 
 @media screen and (max-height: 450px) {
