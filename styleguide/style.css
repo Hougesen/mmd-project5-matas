@@ -40,13 +40,17 @@ html {
 }
 
 .sidenav a:hover {
-    color: #818181;
+    background-color: #A2A7A5;
 }
+
+
 
 /*Til at indikere hvilken side brugeren er på*/
 .active {
-    background-color: #4CAF50;
+    background-color: #A2A7A5;
+    color: white;
 }
+
 
 .main {
     margin-left: 160px;
@@ -64,7 +68,6 @@ html {
 }
 
 .styleGuideContent {
-    margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -104,7 +107,7 @@ hr {
 
 .styleGuideGrid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 
 }
 
