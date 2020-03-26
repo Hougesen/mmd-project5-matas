@@ -67,10 +67,7 @@ html {
     height: auto;
 }
 
-.styleGuideContent {
-    margin-left: 15%;
-    margin-right: 15%;
-}
+
 
 
 /* Abdul kode section*/
@@ -79,40 +76,42 @@ html {
 }
 
 /*BOX1*/
-.textBox1{
+.textBox1 {
     height: auto;
     width: 100%;
     padding: 1em;
     background: #FED6D7;
     color: #707070;
 }
-.textBox1aelement{
+
+.textBox1aelement {
     text-decoration: none;
     color: #707070;
 }
-.textBox1alink{
-    text-decoration: underline dotted; 
+
+.textBox1alink {
+    text-decoration: underline dotted;
     color: #707070;
 }
 
 
 /*BOX2*/
-.textBox2{
+.textBox2 {
     height: auto;
     width: 100%;
     margin-top: 1em;
     padding: 1em;
     background: url(imgtst.jpg);
     color: #f5f5f5;
-} 
+}
 
-.textBox2aelement{
-    text-decoration: none; 
+.textBox2aelement {
+    text-decoration: none;
     color: #f5f5f5;
 }
 
-.textBox2alink{
-    text-decoration: underline dotted; 
+.textBox2alink {
+    text-decoration: underline dotted;
     color: #f5f5f5;
 }
 
@@ -125,9 +124,9 @@ html {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-  }
-  
-  .hvr-underline-from-center:before {
+}
+
+.hvr-underline-from-center:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -142,14 +141,14 @@ html {
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
-  
-  .hvr-underline-from-center:hover:before,
-  .hvr-underline-from-center:focus:before,
-  .hvr-underline-from-center:active:before {
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
-  }
+}
 
 /* Abdul kode section*/
 
@@ -171,7 +170,6 @@ hr {
 
 .styleGuideGridItem {
     margin-top: 2%;
-    text-align: center;
 }
 
 .knap1 {
