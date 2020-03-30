@@ -153,28 +153,28 @@ html {
     right: 0;
 }
 
-.gridImgs {
-    height: 48px;
-    width: 48px;
+.imgs {
+    height: 96px;
+    width: 96px;
+}
+.socialicons{
+    font-size: 96px;
 }
 
-<<<<<<< HEAD
+code{
     background-color: #eee;
     border-radius: 3px;
     font-family: courier, monospace;
     padding: 0 3px;
-=======
-.codwrap{
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    padding: 3px;
-    border: 1px solid #909090;
->>>>>>> parent of 2d75c1e... tst
 }
+/* Abdul kode section*/
+
+hr{
     height: 6px;
     background: #d7e8f2;
     margin-bottom: 2%;
 }
+
 
 .styleGuideGrid {
     display: grid;
