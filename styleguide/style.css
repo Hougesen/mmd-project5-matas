@@ -151,15 +151,20 @@ html {
     right: 0;
 }
 
-.gridImgs{
-    height: 48px;
-    width: 48px; 
+.imgs{
+    height: 96px;
+    width: 96px; 
 }
+
+.socialicons{
+    font-size: 96px;
+}
+
 .codwrap{
     background-color: #f5f5f5;
     border-radius: 5px;
     padding: 3px;
-    border: 1px solid black;
+    border: 1px solid #909090;
 }
 
 /* Abdul kode section*/
