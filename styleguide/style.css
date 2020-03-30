@@ -1,11 +1,9 @@
 @charset "UTF-8";
-
+@import url("https://use.typekit.net/osr6ksa.css");
 * {
     box-sizing: border-box;
     line-height: 1.6;
-    margin: 0;
     padding: 0;
-    font-family: mr-eaves-modern, sans-serif;
 }
 
 html {
@@ -186,16 +184,28 @@ html {
 }
 
 
-.gridImgs {
-    height: 48px;
-    width: 48px;
+.imgs{
+    height: 96px;
+    width: 96px; 
 }
 
+.socialicons{
+    font-size: 96px;
+}
+
+code {
     background-color: #eee;
     border-radius: 3px;
     font-family: courier, monospace;
     padding: 0 3px;
 }
+
+/* Abdul kode section*/
+
+hr {
+    margin: 0 auto;
+    width: 100%;
+    border: none;
     height: 6px;
     background: #d7e8f2;
     margin-bottom: 2%;
@@ -288,7 +298,6 @@ html {
     .sidenav {
         padding-top: 15px;
     }
-
     .sidenav a {
         font-size: 18px;
     }
