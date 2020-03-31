@@ -111,7 +111,7 @@ html {
 }
 
 .matasHero {
-    background-image: url("../assets/images/forsidebillede7.jpg");
+    background-image: url("../assets/images/originale/forsidebillede7.jpg");
     height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,6 +144,8 @@ html {
 .gridImg {
     width: 100%;
     height: auto;
+    object-fit: contain;
+
 }
 
 .banner {
