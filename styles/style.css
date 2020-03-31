@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
     box-sizing: border-box;
     line-height: 1.6;
@@ -79,7 +78,6 @@ input[type=text]:hover {
     width: 20%;
 }
 
-
 .navContainer {
     display: flex;
     justify-content: space-around;
@@ -92,7 +90,6 @@ input[type=text]:hover {
     display: flex;
     justify-content: space-around;
     width: 50%;
-
 }
 
 .nav-links li {
@@ -103,7 +100,6 @@ input[type=text]:hover {
     color: #808080;
     text-decoration: none;
     letter-spacing: 2px;
-    font-weight: bold;
     font-size: 1em;
     text-transform: uppercase;
     transition: 0.5s;
@@ -146,9 +142,11 @@ input[type=text]:hover {
     text-align: center;
     text-align-last: center;
     position: absolute;
-    width: 30%;
+    width: 25%;
+    margin-left: 20px;
     top: 5%;
     color: white;
+    font-size: 20px;
 }
 
 .trioGrid {
@@ -156,14 +154,12 @@ input[type=text]:hover {
     grid-template-columns: repeat(3, 1fr);
     margin: 2rem;
     grid-gap: 2rem;
-
 }
 
 .gridImg {
     width: 100%;
     height: auto;
     object-fit: contain;
-
 }
 
 .banner {
@@ -245,7 +241,6 @@ input[type=text]:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 2rem;
-
 }
 
 .footerGrid a {
@@ -287,18 +282,17 @@ input[type=text]:hover {
 
 
 /*Smaller screens */
+
 @media screen and (max-width: 1280px) {
     .nav-links {
         width: 90%;
     }
-
 }
 
 @media screen and (max-width: 768px) {
     body {
         overflow: hidden;
     }
-
     .nav-links {
         position: absolute;
         height: 100vh;
@@ -311,29 +305,22 @@ input[type=text]:hover {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
-
     .nav-links li {
         opacity: 0;
     }
-
     .nav-links a {
         font-size: 12px;
         color: #808080;
     }
-
     .burger {
         display: block;
     }
-
     .navContainer {
         justify-content: flex-start;
     }
-
     .headContainer {
         margin-right: 6em;
     }
-
-
 }
 
 .nav-active {
@@ -345,7 +332,6 @@ input[type=text]:hover {
         opacity: 0;
         transform: translateX(50px);
     }
-
     to {
         opacity: 1;
         transform: translateX(0px);
