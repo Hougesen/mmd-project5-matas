@@ -18,3 +18,94 @@ html {
     padding-top: 0;
     width: 100%;
 }
+
+.matasHero {
+    background-image: url("../assets/images/produktbilleder2-30.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.matasHeroText {
+    text-align: center;
+    text-align-last: center;
+    position: absolute;
+    width: 30%;
+    top: 5%;
+    /* til at centrere med
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    */
+    color: white;
+}
+
+.trioGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem;
+    grid-gap: 2rem;
+
+}
+
+.gridImg {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    margin: 2rem;
+}
+
+.bannerImg {
+    width: 100%;
+    height: auto;
+}
+
+.storiesSection {
+    text-align: center;
+}
+
+.sectionHR {
+    height: 3px;
+    background: black;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.storiesLogo {
+    width: 10%;
+    height: auto;
+}
+
+.storiesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem;
+    grid-gap: 2rem;
+}
+
+.certifikatSection {
+    text-align: center;
+}
+
+.certifikatGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 2rem;
+    grid-gap: 2rem;
+}
+
+.instagramSection {
+    text-align: center;
+}
+
+.instagramGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem;
+    grid-gap: 2rem;
+}
