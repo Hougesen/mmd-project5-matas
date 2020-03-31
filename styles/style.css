@@ -18,7 +18,10 @@ html {
     padding-top: 0;
     width: 100%;
 }
-
+.headGridContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .headContainerTop {
     display: flex;
     justify-content: flex-start;
@@ -56,6 +59,24 @@ html {
     margin: 1em;
 }
 
+input[type=text] {
+    width: 0px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:hover {
+    width: 20%;
+  }
+
 
 .navContainer {
     display: flex;
@@ -63,7 +84,6 @@ html {
     align-items: center;
     min-height: 8vh;
     background-color: #fdfffc;
-    z-index: 3;
 }
 
 .nav-links {
@@ -78,7 +98,7 @@ html {
 }
 
 .nav-links a {
-    color: #4000ff;
+    color:#808080;
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
@@ -89,7 +109,7 @@ html {
 
 .nav-links a:hover {
     transition: 0.35s;
-    color: rgba(253, 160, 0, 0.849);
+    color: #000;
 }
 
 .burger {
@@ -101,7 +121,7 @@ html {
     display: flex;
     width: 25px;
     height: 5px;
-    background-color: #4000ff;
+    background-color: #404040;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -117,6 +137,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: -1;
 }
 
 .matasHeroText {
@@ -243,14 +264,14 @@ html {
 
 @media screen and (max-width: 768px) {
     body {
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .nav-links {
         position: absolute;
-        height: 92vh;
-        top: 8vh;
-        background-color: #4000ff;
+        height: 100vh;
+        top: 0vh;
+        background-color: #EFEFEF;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -265,7 +286,7 @@ html {
 
     .nav-links a {
         font-size: 12px;
-        color: #fdfffc;
+        color: #808080;
     }
 
     .burger {
@@ -275,6 +296,10 @@ html {
     .navContainer {
         justify-content: flex-start;
     }
+    .headContainer {
+        margin-right: 6em;
+    }
+    
 
 }
 
