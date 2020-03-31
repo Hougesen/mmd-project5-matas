@@ -27,12 +27,17 @@ html {
     justify-content: flex-start;
     align-items: center;
     background-color: #EFEFEF;
+    text-align: center;
+    /*containeren skal have text align for at links i container kan inline-block*/
 }
 
 .headContainerTop a {
     color: #000;
     text-decoration: none;
     padding: 10px;
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 12px;
 }
 
 .headContainer {
@@ -88,7 +93,7 @@ input[type=text]:hover {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 60%;
 }
 
 .nav-links li {
@@ -98,7 +103,7 @@ input[type=text]:hover {
 .nav-links a {
     color: #808080;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 1em;
     text-transform: uppercase;
     transition: 0.5s;
