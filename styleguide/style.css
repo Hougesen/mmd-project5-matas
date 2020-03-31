@@ -227,6 +227,11 @@ hr {
     background-color: #ffffff;
 }
 
+.knap2:active {
+    position: relative;
+    top: 1px;
+}
+
 
 .farveGrid {
     display: grid;
