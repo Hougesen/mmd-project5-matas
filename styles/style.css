@@ -96,7 +96,6 @@ html {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin: 2rem;
-    grid-gap: 2rem;
 }
 
 .instagramSection {
