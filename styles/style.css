@@ -125,11 +125,6 @@ html {
     position: absolute;
     width: 30%;
     top: 5%;
-    /* til at centrere med
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    */
     color: white;
 }
 
@@ -149,6 +144,8 @@ html {
 }
 
 .banner {
+    /*så den ikke støder ind i knappen over*/
+    padding-top: 3rem;
     margin: 2rem;
 }
 
@@ -164,7 +161,7 @@ html {
 .sectionHR {
     height: 3px;
     background: black;
-    margin-top: 2rem;
+    margin-top: 5rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -232,6 +229,39 @@ html {
     text-decoration: none;
     color: black;
 }
+
+.knap2 {
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
+    border: 3px solid #e4e4e4;
+    display: inline-block;
+    cursor: pointer;
+    color: #808080;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.knap2:hover {
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
+}
+
+.knap2:active {
+    position: relative;
+    top: 1px;
+}
+
+.imgContainer {
+    position: relative;
+    width: 100%;
+}
+
 
 /*Smaller screens */
 @media screen and (max-width: 1280px) {
