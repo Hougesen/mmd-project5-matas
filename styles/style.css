@@ -100,6 +100,8 @@ input[type=text]:hover {
     list-style: none;
     width: 200px;
     height: 45px;
+    opacity: .8;
+    line-height: 40px;
 }
 
 .nav-links a {
@@ -114,6 +116,18 @@ input[type=text]:hover {
 .nav-links a:hover {
     transition: 0.35s;
     color: #000;
+    text-decoration: underline;
+}
+
+ul li ul li {
+    /*nr 2 liste skal ikke vises*/
+    display: none;
+}
+
+ul li:hover ul li {
+    /*hover er targeted den første ul li, og på hover dukker den anden ul li op*/
+    display: block;
+    background-color: #F6F6F6;
 }
 
 .burger {
