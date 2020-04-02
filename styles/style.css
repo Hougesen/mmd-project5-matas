@@ -415,6 +415,11 @@ ul li:hover ul li {
     margin-right: 1rem;
 }
 
+#pålager {
+    margin-top: 15px;
+    font-size: 10px;
+}
+
 .knapperHjerte {
     margin-top: auto;
     margin-bottom: auto;
