@@ -24,7 +24,8 @@ const navSlide = () => {
 
 navSlide();
 
-// Produktside
+// Produktside tabs - niks pille!!
+
 function openProduktInfo(evt, produktInfo) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -38,15 +39,14 @@ function openProduktInfo(evt, produktInfo) {
     document.getElementById(produktInfo).style.display = "block";
     evt.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click();
+
 
 //Scroll to top knap
-btnScrollToTop.addEventListener("click", function() {
+btnScrollToTop.addEventListener("click", function () {
     window.scrollTo({
-      top:0,
-      left:0,
-      behavior:"smooth"
+        top: 0,
+        left: 0,
+        behavior: "smooth"
     });
 });
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
