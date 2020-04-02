@@ -8,10 +8,8 @@
     <title>Matas</title>
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/javascript.js" defer></script>
-    <meta name="description"
-        content="Danmarks største Matas lige ved hånden med alt i makeup, hudpleje, hår og helse. Spar 20% dufte, og få leveret lige til døren.">
-    <meta name="keywords"
-        content="Matas Striber - CHANEL - DIOR - Clinique - Kiehl's - IT Cosmetics - Lancôme - Ole Henriksen - HERMÈS - MAC - ZARKO - KVD Vegan Beauty">
+    <meta name="description" content="Danmarks største Matas lige ved hånden med alt i makeup, hudpleje, hår og helse. Spar 20% dufte, og få leveret lige til døren.">
+    <meta name="keywords" content="Matas Striber - CHANEL - DIOR - Clinique - Kiehl's - IT Cosmetics - Lancôme - Ole Henriksen - HERMÈS - MAC - ZARKO - KVD Vegan Beauty">
     <link rel="stylesheet" href="https://use.typekit.net/fgx0cth.css">
     <script src="https://kit.fontawesome.com/438b659a03.js" crossorigin="anonymous" defer></script>
 
@@ -118,17 +116,10 @@
                     <img src="assets/images/originale/matas.png" class="matasLogo" alt="">
                     <!--Titel og beskrivelse-->
                     <div>
-                        <h1>Clinique Natmaske</h1>
-                        <p>Ekstra mild fugtighedscreme, som øjeblikkeligt beroliger huden og mindsker rødme - også hvis
-                            du
-                            har
-                            rosacea. Lindrer synlig rødme og irritation. Med tiden forbedres hudens udseende. Indeholder
-                            beroligende
-                            probiotika. Forebygger fremtidig opblussen. Velegnet til sart hud med rødme og opblussen
-                            eller
-                            hud
-                            med
-                            rosacea.</p>
+                        <h1 id="natmaske">Clinique Natmaske</h1>
+                        <p>Ekstra mild fugtighedscreme, som øjeblikkeligt beroliger huden og mindsker rødme - også hvis du har rosacea. Lindrer synlig rødme og irritation. Med tiden forbedres hudens udseende. Indeholder beroligende probiotika. Forebygger
+                            fremtidig opblussen. Velegnet til sart hud med rødme og opblussen eller hud med rosacea.
+                        </p>
                     </div>
 
                     <div>
@@ -136,7 +127,7 @@
                     </div>
                     <div>
                         <!--Prisen-->
-                        <h2>199,95 DKK</h2>
+                        <h2 id="maskepris">199,95 DKK</h2>
                     </div>
                 </div>
                 <div>
@@ -160,23 +151,17 @@
     <section class="produktInfo">
         <!--Se https://www.w3schools.com/howto/howto_js_tabs.asp for documentation-->
         <div class="tab">
-            <button class="tablinks" onclick="openProduktInfo(event, 'ingredienser')"
-                id="defaultOpen">INGREDIENSER</button>
+            <button class="tablinks" onclick="openProduktInfo(event, 'ingredienser')" id="defaultOpen">INGREDIENSER</button>
             <button class="tablinks" onclick="openProduktInfo(event, 'detaljer')">DETALJER</button>
             <button class="tablinks" onclick="openProduktInfo(event, 'levering')">LEVERING OG RETURNERING</button>
         </div>
 
         <div id="ingredienser" class="tabcontent">
-            <p>Aqua
-                Diethylhexyl Carbonate, Simmondsia Chinensis Seed Oil, Squalane, Butyrospermum Parkii Butter, Cetyl
-                Alcohol, Dibutyl Adipate, Pentylene Glycol, N-Prolyl Palmitoyl Tripeptide-56 Acetate,
-                CapryloylGlycerin/Sebacic Acid Copolymer, Hydrolyzed Hyaluronic Acid, 1-Methylhydantoin-2-imide,
-                Saccharide Isomerate, Caprylyl Glycol, Diheptyl Succinate, Glyceryl Stearate, Ethylhexylglycerin,
-                Silica, DistarchPhosphate, Sodium Sulfate, Ammonium Acryloyldimethyltaurate/VP Copolymer, Sodium
-                Citrate, PEG-100 Stearate, Sodium StearoylGlutamate, Sorbitan Tristearate, Parfum Sodium Chloride,
-                Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Gluconate, Citric Acid, Sodium Hydroxide.</p>
-            <p>Vær opmærksom på, at ingredienser kan blive udskiftet løbende. Du finder den seneste på producentens
-                hjemmeside.</p>
+            <p>Aqua Diethylhexyl Carbonate, Simmondsia Chinensis Seed Oil, Squalane, Butyrospermum Parkii Butter, Cetyl Alcohol, Dibutyl Adipate, Pentylene Glycol, N-Prolyl Palmitoyl Tripeptide-56 Acetate, CapryloylGlycerin/Sebacic Acid Copolymer, Hydrolyzed
+                Hyaluronic Acid, 1-Methylhydantoin-2-imide, Saccharide Isomerate, Caprylyl Glycol, Diheptyl Succinate, Glyceryl Stearate, Ethylhexylglycerin, Silica, DistarchPhosphate, Sodium Sulfate, Ammonium Acryloyldimethyltaurate/VP Copolymer, Sodium
+                Citrate, PEG-100 Stearate, Sodium StearoylGlutamate, Sorbitan Tristearate, Parfum Sodium Chloride, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Gluconate, Citric Acid, Sodium Hydroxide.</p>
+            <p>Vær opmærksom på, at ingredienser kan blive udskiftet løbende. Du finder den seneste på producentens hjemmeside.
+            </p>
         </div>
 
         <div id="detaljer" class="tabcontent">
@@ -188,24 +173,10 @@
         </div>
 
         <div id="levering" class="tabcontent">
-            <p>Fri fragt til Matas butik: Ved køb for min. 99 kr.
-
-                Fri fragt til alle leveringsformer: Ved køb for min. 399 kr.
-
-                Vi tilbyder følgende leveringsformer:
-
-                Matas - Afhent i butik
-                PostNord - Levering til privatadresse
-                PostNord Pakkeboks
-                DAO - Levering til privatadresse (Kun brofaste øer og Bornholm)
-                GLS - Levering til privatadresse
-                GLS - Levering til arbejdsadresse
-                GLS Pakkeshop
-                Burd Delivery - Aftenlevering til privatadresse til udvalgte postnumre
-                Du har 30 dages fortrydelsesret, når du handler hos os.
-
-                Du kan returnere dit produkt op til senest 14 dage efter du har meddelt os, at du ønsker at fortryde dit
-                køb.</p>
+            <p>Fri fragt til Matas butik: Ved køb for min. 99 kr. Fri fragt til alle leveringsformer: Ved køb for min. 399 kr. Vi tilbyder følgende leveringsformer: Matas - Afhent i butik PostNord - Levering til privatadresse PostNord Pakkeboks DAO - Levering
+                til privatadresse (Kun brofaste øer og Bornholm) GLS - Levering til privatadresse GLS - Levering til arbejdsadresse GLS Pakkeshop Burd Delivery - Aftenlevering til privatadresse til udvalgte postnumre Du har 30 dages fortrydelsesret, når
+                du handler hos os. Du kan returnere dit produkt op til senest 14 dage efter du har meddelt os, at du ønsker at fortryde dit køb.
+            </p>
         </div>
     </section>
 
