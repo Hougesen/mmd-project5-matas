@@ -2,7 +2,7 @@ const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
-
+    const btnScrollToTop = document.querySelector('#btnScrollToTop');
 
 
     burger.addEventListener('click', () => {
@@ -38,6 +38,15 @@ function openProduktInfo(evt, produktInfo) {
     document.getElementById(produktInfo).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+//Scroll to top knap
+btnScrollToTop.addEventListener("click", function() {
+    window.scrollTo({
+      top:0,
+      left:0,
+      behavior:"smooth"
+    });
+});
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
