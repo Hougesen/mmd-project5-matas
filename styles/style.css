@@ -90,7 +90,7 @@ input[type=text]:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: black;
+    background: #e2e2e2;
     height: 40px;
     border-radius: 40px;
     padding: 10px;
@@ -107,7 +107,7 @@ input[type=text]:hover {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #FDD64B;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
