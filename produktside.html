@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Matas Striber - CHANEL - DIOR - Clinique - Kiehl's - IT Cosmetics - Lancôme - Ole Henriksen - HERMÈS - MAC - ZARKO - KVD Vegan Beauty">
     <link rel="stylesheet" href="https://use.typekit.net/fgx0cth.css">
-    <script src="https://kit.fontawesome.com/438b659a03.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/438b659a03.js" crossorigin="anonymous" defer></script>
 
 </head>
 
@@ -30,9 +30,9 @@
                 <a href=""><img src="assets/images/originale/matas.png" alt="matas-logo" /></a>
             </div>
             <div class="headContainerIcons">
-                <a href=""><img src="assets/icons/login.svg" alt="matas-logo" /></a>
-                <a href=""><img src="assets/icons/favorit.svg" alt="matas-logo" /></a>
-                <a href=""><img src="assets/icons/kurv.svg" alt="matas-logo" /></a>
+                <a href=""><img src="assets/icons/login.svg" alt="" /></a>
+                <a href=""><img src="assets/icons/favorit.svg" alt="" /></a>
+                <a href=""><img src="assets/icons/kurv.svg" alt="" /></a>
             </div>
 
         </div>
@@ -106,48 +106,108 @@
             </div>
         </div>
     </nav>
-    <div class="produktGrid">
-        <div class="produktBilledeDiv">
-            <!--Produktbillede-->
-            <img src="assets/images/originale/cliniquenatmaske.jpg" class="produktBillede" alt="">
-        </div>
-        <div class="produktInfo">
-            <!--Matas Logo-->
-            <img src="assets/images/originale/matas.png" class="matasLogo" alt="">
-            <!--Titel og beskrivelse-->
+    <section>
+        <div class="produktGrid">
+            <div class="produktBilledeDiv">
+                <!--Produktbillede-->
+                <img src="assets/images/originale/cliniquenatmaske.jpg" class="produktBillede" alt="">
+            </div>
             <div class="produktText">
-                <h1>Clinique Natmaske</h1>
-                <p>Ekstra mild fugtighedscreme, som øjeblikkeligt beroliger huden og mindsker rødme - også hvis du har
-                    rosacea. Lindrer synlig rødme og irritation. Med tiden forbedres hudens udseende. Indeholder
-                    beroligende
-                    probiotika. Forebygger fremtidig opblussen. Velegnet til sart hud med rødme og opblussen eller hud
-                    med
-                    rosacea.</p>
-            </div>
+                <div>
+                    <!--Matas Logo-->
+                    <img src="assets/images/originale/matas.png" class="matasLogo" alt="">
+                    <!--Titel og beskrivelse-->
+                    <div>
+                        <h1>Clinique Natmaske</h1>
+                        <p>Ekstra mild fugtighedscreme, som øjeblikkeligt beroliger huden og mindsker rødme - også hvis
+                            du
+                            har
+                            rosacea. Lindrer synlig rødme og irritation. Med tiden forbedres hudens udseende. Indeholder
+                            beroligende
+                            probiotika. Forebygger fremtidig opblussen. Velegnet til sart hud med rødme og opblussen
+                            eller
+                            hud
+                            med
+                            rosacea.</p>
+                    </div>
 
-            <div>
-                <!--Mængden af stjerner samt anmeldelser-->
-            </div>
-            <div>
-                <!--Prisen-->
-                <h2>199,95 DKK</h2>
-            </div>
-            <div>
-                <!--Knapper-->
-                <a href="#" class="knap1">LÆG I KURV</a>
-                <a href="#" class="knap2">FIND I BUTIK</a>
+                    <div>
+                        <!--Mængden af stjerner samt anmeldelser-->
+                    </div>
+                    <div>
+                        <!--Prisen-->
+                        <h2>199,95 DKK</h2>
+                    </div>
+                </div>
+                <div>
+                    <!--Knapper-->
+                    <div class="knapperDiv">
+                        <div> <a href="#" class="knap1">LÆG I KURV</a> </div>
+                        <div class="findIButik"> <a href="#" class="knap2">FIND I BUTIK</a> </div>
+                        <div class="knapperHjerte"> <i class="far fa-heart fa-fw fa-3x"></i> </div>
+                    </div>
+                </div>
 
-            </div>
-
-            <div>
-                <!--Lagerstatus-->
-                <p>PÅ LAGER - Afsendes indenfor 2 - 4 hverdage</p>
-                <p>Du optjener 4 point hos Club Matas</p>
+                <div>
+                    <!--Lagerstatus-->
+                    <p>PÅ LAGER - Afsendes indenfor 2 - 4 hverdage</p>
+                    <p>Du optjener 4 point hos Club Matas</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <hr class="sectionHR">
+    <section class="produktInfo">
+        <!--Se https://www.w3schools.com/howto/howto_js_tabs.asp for documentation-->
+        <div class="tab">
+            <button class="tablinks" onclick="openProduktInfo(event, 'ingredienser')"
+                id="defaultOpen">INGREDIENSER</button>
+            <button class="tablinks" onclick="openProduktInfo(event, 'detaljer')">DETALJER</button>
+            <button class="tablinks" onclick="openProduktInfo(event, 'levering')">LEVERING OG RETURNERING</button>
+        </div>
 
+        <div id="ingredienser" class="tabcontent">
+            <p>Aqua
+                Diethylhexyl Carbonate, Simmondsia Chinensis Seed Oil, Squalane, Butyrospermum Parkii Butter, Cetyl
+                Alcohol, Dibutyl Adipate, Pentylene Glycol, N-Prolyl Palmitoyl Tripeptide-56 Acetate,
+                CapryloylGlycerin/Sebacic Acid Copolymer, Hydrolyzed Hyaluronic Acid, 1-Methylhydantoin-2-imide,
+                Saccharide Isomerate, Caprylyl Glycol, Diheptyl Succinate, Glyceryl Stearate, Ethylhexylglycerin,
+                Silica, DistarchPhosphate, Sodium Sulfate, Ammonium Acryloyldimethyltaurate/VP Copolymer, Sodium
+                Citrate, PEG-100 Stearate, Sodium StearoylGlutamate, Sorbitan Tristearate, Parfum Sodium Chloride,
+                Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Gluconate, Citric Acid, Sodium Hydroxide.</p>
+            <p>Vær opmærksom på, at ingredienser kan blive udskiftet løbende. Du finder den seneste på producentens
+                hjemmeside.</p>
+        </div>
+
+        <div id="detaljer" class="tabcontent">
+            <p>Indhold: 50 ml</p>
+            <p>Enhedspris: 3.199,00 kr./l</p>
+            <p>Mærke: Plaisir</p>
+            <p>Serie: Glow</p>
+            <p>Varenummer: 727714 </p>
+        </div>
+
+        <div id="levering" class="tabcontent">
+            <p>Fri fragt til Matas butik: Ved køb for min. 99 kr.
+
+                Fri fragt til alle leveringsformer: Ved køb for min. 399 kr.
+
+                Vi tilbyder følgende leveringsformer:
+
+                Matas - Afhent i butik
+                PostNord - Levering til privatadresse
+                PostNord Pakkeboks
+                DAO - Levering til privatadresse (Kun brofaste øer og Bornholm)
+                GLS - Levering til privatadresse
+                GLS - Levering til arbejdsadresse
+                GLS Pakkeshop
+                Burd Delivery - Aftenlevering til privatadresse til udvalgte postnumre
+                Du har 30 dages fortrydelsesret, når du handler hos os.
+
+                Du kan returnere dit produkt op til senest 14 dage efter du har meddelt os, at du ønsker at fortryde dit
+                køb.</p>
+        </div>
+    </section>
 
 
     <footer>

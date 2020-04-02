@@ -317,7 +317,7 @@ ul li:hover ul li {
 .knap1 {
     background: linear-gradient(to bottom, #fed6d7 5%, #fed6d7 100%);
     background-color: #fed6d7;
-    border: 1px solid #fed6d7;
+    border: 3px solid #fed6d7;
     display: inline-block;
     cursor: pointer;
     color: #808080;
@@ -365,10 +365,14 @@ ul li:hover ul li {
 }
 
 /*Produktside del*/
+
+/*Første section af produktsiden bestånde af produktbillede + call to action*/
+
 .matasLogo {
     width: 10%;
     height: auto;
 }
+
 
 .produktGrid {
     margin-top: 2rem;
@@ -387,12 +391,105 @@ ul li:hover ul li {
     text-align: center;
 }
 
-.produktInfo {
+.produktText {
     text-align: center;
     width: 80%;
 }
 
-.produktText {}
+.knapperDiv {
+    justify-content: center;
+
+    display: flex;
+}
+
+.findIButik {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.knapperHjerte {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*Anden section af produktsiden bestående af tabs*/
+.produktInfo {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.tab {
+    text-align: center;
+
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    text-align: center;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+    text-decoration: underline;
+}
+
+/* Style the tab content */
+.tabcontent {
+    text-align-last: center;
+    width: 60%;
+    display: none;
+    padding: 6px 12px;
+    animation: fadeEffect 1s;
+    margin: auto;
+}
+
+/*Produktside slut*/
+
+/*Hvoer effekt*/
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: black;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
 
 /*Smaller screens */
 
@@ -468,4 +565,14 @@ ul li:hover ul li {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-8px, -7px);
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
