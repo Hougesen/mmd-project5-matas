@@ -455,6 +455,11 @@ ul li:hover ul li {
 }
 
 /*Påførings sektion*/
+.usageSection {
+    margin-bottom: 3rem;
+
+}
+
 .usageSection h3 {
     text-align: center;
 }
