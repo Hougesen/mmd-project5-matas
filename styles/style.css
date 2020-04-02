@@ -1,11 +1,10 @@
 @charset "UTF-8";
-
 * {
     box-sizing: border-box;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    font-family: mr-eaves-modern, sans-serif;
+    font-family: Mr Eaves XL Mod OT, sans-serif;
 }
 
 html {
@@ -134,6 +133,7 @@ input[type=text]:hover {
     align-items: center;
     min-height: 8vh;
     background-color: #fdfffc;
+    margin-top: 20px;
 }
 
 .nav-links {
@@ -218,8 +218,8 @@ ul li:hover ul li {
 .trioGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 2rem;
-    grid-gap: 2rem;
+    margin: 3rem;
+    grid-gap: 3rem;
 }
 
 .gridImg {
@@ -231,7 +231,7 @@ ul li:hover ul li {
 .banner {
     /*så den ikke støder ind i knappen over*/
     padding-top: 3rem;
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .bannerImg {
@@ -247,8 +247,8 @@ ul li:hover ul li {
     height: 3px;
     background: black;
     margin-top: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .storiesLogo {
@@ -259,8 +259,8 @@ ul li:hover ul li {
 .storiesGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 2rem;
-    grid-gap: 2rem;
+    margin: 3rem;
+    grid-gap: 3rem;
 }
 
 .certifikatSection {
@@ -270,7 +270,7 @@ ul li:hover ul li {
 .certifikatGrid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .instagramSection {
@@ -280,8 +280,8 @@ ul li:hover ul li {
 .instagramGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 2rem;
-    grid-gap: 2rem;
+    margin: 3rem;
+    grid-gap: 3rem;
 }
 
 #btnScrollToTop{
@@ -325,7 +325,7 @@ ul li:hover ul li {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .footerGrid a {
@@ -383,7 +383,9 @@ ul li:hover ul li {
     width: 100%;
 }
 
+
 /*Produktside del*/
+
 
 /*Første section af produktsiden bestånde af produktbillede + call to action*/
 
@@ -392,6 +394,9 @@ ul li:hover ul li {
     height: auto;
 }
 
+#natmaske {
+    padding: 30px;
+}
 
 .produktGrid {
     margin-top: 2rem;
@@ -415,9 +420,12 @@ ul li:hover ul li {
     width: 80%;
 }
 
+#maskepris {
+    padding: 25px;
+}
+
 .knapperDiv {
     justify-content: center;
-
     display: flex;
 }
 
@@ -426,24 +434,32 @@ ul li:hover ul li {
     margin-right: 1rem;
 }
 
+#pålager {
+    margin-top: 15px;
+    font-size: 10px;
+}
+
 .knapperHjerte {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-/*Anden section af produktsiden bestående af tabs*/
+
+/*Produktinfo section*/
+
 .produktInfo {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .tab {
     text-align: center;
-
     overflow: hidden;
 }
 
+
 /* Style the buttons inside the tab */
+
 .tab button {
     text-align: center;
     background-color: inherit;
@@ -455,15 +471,19 @@ ul li:hover ul li {
     font-size: 17px;
 }
 
+
 /* Change background color of buttons on hover */
 
 
 /* Create an active/current tablink class */
+
 .tab button.active {
     text-decoration: underline;
 }
 
+
 /* Style the tab content */
+
 .tabcontent {
     text-align-last: center;
     width: 60%;
@@ -473,9 +493,39 @@ ul li:hover ul li {
     margin: auto;
 }
 
+
+/*Påførings sektion*/
+
+<<<<<<< HEAD=======.usageSection {
+    margin-bottom: 6rem;
+}
+
+>>>>>>>acc4817f60e4fdcfdbd1833abee352d2f5aba2fc .usageSection h3 {
+    text-align: center;
+}
+
+.usageGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.usageGridItem {
+    margin: auto;
+}
+
+.usageGridImg {
+    width: 100%;
+    height: auto;
+}
+
+
 /*Produktside slut*/
 
+
 /*Hvoer effekt*/
+
 .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -510,6 +560,7 @@ ul li:hover ul li {
     right: 0;
 }
 
+
 /*Smaller screens */
 
 @media screen and (max-width: 1280px) {
@@ -522,7 +573,6 @@ ul li:hover ul li {
     body {
         overflow: hidden;
     }
-
     .nav-links {
         position: absolute;
         height: 100vh;
@@ -535,24 +585,19 @@ ul li:hover ul li {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
-
     .nav-links li {
         opacity: 0;
     }
-
     .nav-links a {
         font-size: 12px;
         color: #808080;
     }
-
     .burger {
         display: block;
     }
-
     .navContainer {
         justify-content: flex-start;
     }
-
     .headContainer {
         margin-right: 6em;
     }
@@ -567,7 +612,6 @@ ul li:hover ul li {
         opacity: 0;
         transform: translateX(50px);
     }
-
     to {
         opacity: 1;
         transform: translateX(0px);
@@ -590,7 +634,6 @@ ul li:hover ul li {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
