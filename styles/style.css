@@ -218,8 +218,8 @@ ul li:hover ul li {
 .trioGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 2rem;
-    grid-gap: 2rem;
+    margin: 3rem;
+    grid-gap: 3rem;
 }
 
 .gridImg {
@@ -231,7 +231,7 @@ ul li:hover ul li {
 .banner {
     /*så den ikke støder ind i knappen over*/
     padding-top: 3rem;
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .bannerImg {
@@ -247,8 +247,8 @@ ul li:hover ul li {
     height: 3px;
     background: black;
     margin-top: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .storiesLogo {
@@ -259,8 +259,8 @@ ul li:hover ul li {
 .storiesGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 2rem;
-    grid-gap: 2rem;
+    margin: 3rem;
+    grid-gap: 3rem;
 }
 
 .certifikatSection {
@@ -270,7 +270,7 @@ ul li:hover ul li {
 .certifikatGrid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .instagramSection {
@@ -280,8 +280,8 @@ ul li:hover ul li {
 .instagramGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 2rem;
-    grid-gap: 2rem;
+    margin: 3rem;
+    grid-gap: 3rem;
 }
 
 .footerIconer {
@@ -306,7 +306,7 @@ ul li:hover ul li {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .footerGrid a {
@@ -412,10 +412,10 @@ ul li:hover ul li {
     margin-bottom: auto;
 }
 
-/*Anden section af produktsiden bestående af tabs*/
+/*Produktinfo section*/
 .produktInfo {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .tab {
@@ -453,6 +453,29 @@ ul li:hover ul li {
     animation: fadeEffect 1s;
     margin: auto;
 }
+
+/*Påførings sektion*/
+.usageSection h3 {
+    text-align: center;
+}
+
+.usageGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.usageGridItem {
+    margin: auto;
+}
+
+.usageGridImg {
+    width: 100%;
+    height: auto;
+}
+
+
 
 /*Produktside slut*/
 
