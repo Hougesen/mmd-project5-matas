@@ -133,6 +133,7 @@ input[type=text]:hover {
     align-items: center;
     min-height: 8vh;
     background-color: #fdfffc;
+    margin-top: 20px;
 }
 
 .nav-links {
@@ -470,15 +471,12 @@ ul li:hover ul li {
 
 
 /*Påførings sektion*/
-<<<<<<< HEAD
-=======
-.usageSection {
+
+<<<<<<< HEAD=======.usageSection {
     margin-bottom: 6rem;
-
 }
->>>>>>> acc4817f60e4fdcfdbd1833abee352d2f5aba2fc
 
-.usageSection h3 {
+>>>>>>>acc4817f60e4fdcfdbd1833abee352d2f5aba2fc .usageSection h3 {
     text-align: center;
 }
 
