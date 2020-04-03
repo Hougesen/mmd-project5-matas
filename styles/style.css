@@ -421,6 +421,7 @@ ul li:hover ul li {
 .produktText {
     text-align: center;
     width: 80%;
+    font-weight: 300;
 }
 
 #natmasketekst {
