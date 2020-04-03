@@ -1,4 +1,6 @@
+/*Husk aldrig at bruge ÆØÅ til class/id/filnavne eftersom det kan fucke op hvis editoren ikke understøtter det*/
 @charset "UTF-8";
+
 * {
     box-sizing: border-box;
     line-height: 1.6;
@@ -284,6 +286,25 @@ ul li:hover ul li {
     grid-gap: 3rem;
 }
 
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #979797;
+    opacity: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0.25);
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:active {
+    background-color: #8A8A8A;
+}
+
 .footerIconer {
     display: flex;
 }
@@ -375,8 +396,9 @@ ul li:hover ul li {
     height: auto;
 }
 
-#natmaske {
+#produktTitel {
     padding: 30px;
+    font-weight: 400;
 }
 
 .produktGrid {
@@ -401,8 +423,21 @@ ul li:hover ul li {
     width: 80%;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+#natmasketekst {
+    font-weight: 300;
+}
+
 #maskepris {
+=======
+#produktPris {
+>>>>>>> a32aba77a06f641e95004e0ff25101f3535e9688
+=======
+#produktPris {
+>>>>>>> a32aba77a06f641e95004e0ff25101f3535e9688
     padding: 25px;
+    font-weight: 400;
 }
 
 .knapperDiv {
@@ -415,7 +450,7 @@ ul li:hover ul li {
     margin-right: 1rem;
 }
 
-#pålager {
+#lagerStatus {
     margin-top: 15px;
     font-size: 10px;
 }
@@ -472,16 +507,17 @@ ul li:hover ul li {
     padding: 6px 12px;
     animation: fadeEffect 1s;
     margin: auto;
+    font-weight: 300;
 }
 
 
 /*Påførings sektion*/
 
-<<<<<<< HEAD=======.usageSection {
+.usageSection {
     margin-bottom: 6rem;
 }
 
->>>>>>>acc4817f60e4fdcfdbd1833abee352d2f5aba2fc .usageSection h3 {
+.usageSection h3 {
     text-align: center;
 }
 
@@ -554,6 +590,7 @@ ul li:hover ul li {
     body {
         overflow: hidden;
     }
+
     .nav-links {
         position: absolute;
         height: 100vh;
@@ -566,19 +603,24 @@ ul li:hover ul li {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
+
     .nav-links li {
         opacity: 0;
     }
+
     .nav-links a {
         font-size: 12px;
         color: #808080;
     }
+
     .burger {
         display: block;
     }
+
     .navContainer {
         justify-content: flex-start;
     }
+
     .headContainer {
         margin-right: 6em;
     }
@@ -593,6 +635,7 @@ ul li:hover ul li {
         opacity: 0;
         transform: translateX(50px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0px);
@@ -615,6 +658,7 @@ ul li:hover ul li {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
