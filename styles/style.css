@@ -727,7 +727,7 @@ ul li:hover ul li {
 
 @media screen and (max-width: 768px) {
     body {
-        overflow: hidden;
+     
     }
     .nav-links {
         position: absolute;
