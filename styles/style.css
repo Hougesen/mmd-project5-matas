@@ -389,7 +389,11 @@ ul li:hover ul li {
 
 /*Produktside del*/
 
-
+#breadcrumbs {
+  margin-left: 5rem;
+  font-size: 8pt;
+  color: #707070;
+}
 /*Første section af produktsiden bestånde af produktbillede + call to action*/
 
 .matasLogo {
