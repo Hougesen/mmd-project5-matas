@@ -541,6 +541,37 @@ ul li:hover ul li {
 
 /*Produktside slut*/
 
+/*HUDTEST SIDE*/
+.hudtesttitle{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #707070;
+}
+.hudteststeps{
+  color:#707070;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*tilretter teksten under billederne*/
+.hudteststeps figure{
+margin: auto;
+text-align: center;
+width: 250px;
+}
+/*størrelsen på billderne*/
+.hudteststeps figure img{
+  width: 250px;
+}
+#tagtestenbtn button{
+text-align: center;
+margin-top: 20px;
+font-size: 20pt;
+padding: 5px;
+background-color: #fed6d7
+}
 
 /*Hvoer effekt*/
 
