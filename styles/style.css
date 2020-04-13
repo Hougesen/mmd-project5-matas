@@ -48,6 +48,13 @@ html {
   justify-content: center;
 }
 
+.headContainerBurger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
 .headContainer img {
   height: 48px;
   width: auto;
@@ -938,6 +945,7 @@ ul li ul:hover {
 
   .headContainer {
     margin-right: 6em;
+
   }
 
   .kategoriGrid-container {
@@ -963,7 +971,7 @@ ul li ul:hover {
 @keyframes navLinkFade {
   from {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(40px);
   }
 
   to {
