@@ -270,6 +270,7 @@ ul li ul:hover {
 
 .footerIconer {
   display: flex;
+
 }
 
 .footerIconer .hr-line {
@@ -349,10 +350,30 @@ ul li ul:hover {
 }
 
 /*Produktside del*/
-.breadcrumbs {
-  text-align: center;
-  font-size: 8pt;
-  color: #707070;
+.breadcrumb{
+  padding-left:75px;
+
+}
+.breadcrumb ul {
+  padding: 10px 16px;
+  list-style: none;
+}
+.breadcrumb li {
+  display:inline;
+  font-size: 12px;
+}
+.breadcrumb li+li:before {
+  padding: 10px;
+  color: black;
+  content: ">\00a0";
+}
+.breadcrumb  li a {
+  color:  #808080;
+  text-decoration: none;
+}
+.breadcrumb  li a:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
 
 /*Første section af produktsiden bestånde af produktbillede + call to action*/
@@ -872,7 +893,7 @@ ul li ul:hover {
 @media screen and (max-width: 768px) {
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     height: 100vh;
     top: 0vh;
     background-color: #EFEFEF;
@@ -882,6 +903,7 @@ ul li ul:hover {
     width: 70%;
     transform: translateX(-150%);
     transition: transform 0.5s ease-in;
+    z-index: 1;
   }
 
   .nav-links li {
@@ -900,6 +922,7 @@ ul li ul:hover {
 
   .burger {
     display: block;
+    position: fixed;
   }
 
   .navContainer {
