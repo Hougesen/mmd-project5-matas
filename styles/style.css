@@ -91,49 +91,7 @@ input[type=text]:hover {
   width: 20%;
 }
 
-/*search bar kommer her ikke færdig
 
-.search-bar {
-    float: right;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #e2e2e2;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-}
-
-.search-bar:hover>.search-text {
-    width: 240px;
-    padding: 0 6px;
-}
-
-.search-btn {
-    color: salmon;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.search-text {
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-}
-*/
 .navContainer {
   display: flex;
   justify-content: space-around;
@@ -172,16 +130,16 @@ input[type=text]:hover {
 }
 
 .nav-links li ul {
-	background: #F6F6F6;
-	visibility: hidden;
+  background: #F6F6F6;
+  visibility: hidden;
   opacity: 0;
   min-width: 12rem;
   padding: 10px;
-	position: absolute;
+  position: absolute;
   display: none;
 }
 
-.nav-links  li:hover > ul,
+.nav-links li:hover>ul,
 ul li ul:hover {
   visibility: visible;
   opacity: 0.8;
@@ -216,11 +174,10 @@ ul li ul:hover {
   text-align: center;
   text-align-last: center;
   position: absolute;
-  width: 25%;
-  margin-left: 20px;
-  top: 5%;
-  color: white;
-  font-size: 20px;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .trioGrid {
@@ -511,10 +468,12 @@ ul li ul:hover {
 }
 
 .usageGrid {
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-left: 3rem;
   margin-right: 3rem;
+  grid-gap: 3rem;
 }
 
 .usageGridItem {
@@ -557,12 +516,14 @@ ul li ul:hover {
 .hudteststeps figure img {
   width: 250px;
 }
-#tagtesten{
-text-align: center;
-margin: 20px;
-border: none;
+
+#tagtesten {
+  text-align: center;
+  margin: 20px;
+  border: none;
 }
-#tagtestenbtn{
+
+#tagtestenbtn {
   width: 150px;
   height: 50px;
   text-align: center;
@@ -754,19 +715,21 @@ border: none;
 .striberHero {
   background-color:
     #f0f0f0;
-  display: inline-flex;
-  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
 }
 
-.striberHero img {
-  width: 900px;
+.striberHeroImg {
+  width: 100%;
   height: auto;
 }
 
 .striberText {
-  width: 30%;
   text-align: center;
-  margin-left: 10rem;
+  margin: auto;
+  width: 70%;
+
 }
 
 
@@ -872,7 +835,8 @@ border: none;
   .instagramGrid,
   .footerGrid,
   .usageGrid,
-  .produktGrid {
+  .produktGrid,
+  .striberHero {
     grid-template-columns: repeat(1, 1fr);
 
   }
@@ -891,8 +855,16 @@ border: none;
   }
 
   .tabcontent {
+    width: 90%;
+  }
+
+  .produktText {
     width: 100%;
-    text-align: center;
+  }
+
+  .striberText {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
 }
@@ -920,10 +892,11 @@ border: none;
     font-size: 12px;
     color: #808080;
   }
-  .nav-links  li:hover > ul,
-ul li ul:hover {
-  display: none;
-}
+
+  .nav-links li:hover>ul,
+  ul li ul:hover {
+    display: none;
+  }
 
   .burger {
     display: block;
