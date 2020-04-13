@@ -8,6 +8,8 @@ function yScrollHandler() {
     } else {
         win.style.transition = "left 0.5s ease-in-out 0.2s";
         win.style.left = "-852px";
-    }
+    } 
 }
+
+  
 window.onscroll = yScrollHandler;
