@@ -530,9 +530,9 @@ ul li ul:hover {
     bottom: 25px;
     left: -852px;
     background: white;
-    padding: 25px;
-    width: 500px;
-    height: 180px;
+    padding: 55px;
+    width: 600px;
+    height: 230px;
     color: #DDCEF0;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -541,9 +541,15 @@ ul li ul:hover {
     border-bottom: solid 2px #989898;
 }
 
-.linje_et {
-    font-size: 40px;
-    font-weight: bold;
+.peekabooimage {
+    float: left;
+}
+
+.peekabootekst {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    float: left;
 }
 
 a {
