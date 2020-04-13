@@ -165,16 +165,16 @@ input[type=text]:hover {
 }
 
 .nav-links li ul {
-	background: #F6F6F6;
-	visibility: hidden;
+  background: #F6F6F6;
+  visibility: hidden;
   opacity: 0;
   min-width: 12rem;
   padding: 10px;
-	position: absolute;
+  position: absolute;
   display: none;
 }
 
-.nav-links  li:hover > ul,
+.nav-links li:hover>ul,
 ul li ul:hover {
   visibility: visible;
   opacity: 0.8;
@@ -554,12 +554,14 @@ ul li ul:hover {
 .hudteststeps figure img {
   width: 250px;
 }
-#tagtesten{
-text-align: center;
-margin: 20px;
-border: none;
+
+#tagtesten {
+  text-align: center;
+  margin: 20px;
+  border: none;
 }
-#tagtestenbtn{
+
+#tagtestenbtn {
   width: 150px;
   height: 50px;
   text-align: center;
@@ -888,8 +890,11 @@ border: none;
   }
 
   .tabcontent {
+    width: 90%;
+  }
+
+  .produktText {
     width: 100%;
-    text-align: center;
   }
 
 }
@@ -917,10 +922,11 @@ border: none;
     font-size: 12px;
     color: #808080;
   }
-  .nav-links  li:hover > ul,
-ul li ul:hover {
-  display: none;
-}
+
+  .nav-links li:hover>ul,
+  ul li ul:hover {
+    display: none;
+  }
 
   .burger {
     display: block;
