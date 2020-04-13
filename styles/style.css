@@ -384,8 +384,8 @@ ul li:hover ul li {
 }
 
 /*Produktside del*/
-#breadcrumbs {
-  margin-left: 5rem;
+.breadcrumbs {
+  text-align: center;
   font-size: 8pt;
   color: #707070;
 }
@@ -758,7 +758,6 @@ ul li:hover ul li {
 }
 
 @media screen and (max-width: 768px) {
-  body {}
 
   .nav-links {
     position: absolute;
@@ -860,23 +859,6 @@ ul li:hover ul li {
   margin-bottom: -0.5%;
 }
 
-@media query screen and (min-width: 768px) {
-  .striberHero img {
-    width: 100%;
-    height: auto;
-    padding-bottom: 30px;
-    display: block;
-  }
-}
-
-@media query screen an (min-width: 768px) {
-  .striberHero h1 {
-    margin-right: 9.5%;
-    margin-top: 5%;
-    text-align: center;
-    font-size: 35px;
-  }
-}
 
 .striberHero h1 {
   float: right;
