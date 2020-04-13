@@ -38,8 +38,8 @@ html {
   text-decoration: none;
   padding: 10px;
   display: inline-block;
-  margin-left: 35px;
   font-size: 12px;
+
 }
 
 .headContainer {
@@ -200,7 +200,7 @@ ul li ul:hover {
 }
 
 .matasHero {
-  background-image: url("../assets/images/originale/forsidebillede7.jpg");
+  background-image: url("../assets/images/optimeret/matasheader.jpg");
   height: 72vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -746,6 +746,102 @@ border: none;
   border-width: 1px;
 }
 
+
+/*striberHero*/
+.striberHero {
+  background-color:
+    #f0f0f0;
+  display: inline-flex;
+  width: 100vw;
+}
+
+.striberHero img {
+  width: 900px;
+  height: auto;
+}
+
+.striberText {
+  width: 30%;
+  text-align: center;
+  margin-left: 10rem;
+}
+
+
+/*grid*/
+.strioGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem;
+  grid-gap: 2rem;
+}
+
+.gridImgs {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 8%;
+}
+
+.gridKnap {
+  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color: #ffffff;
+  border: 3px solid #e4e4e4;
+  display: inline-block;
+  cursor: pointer;
+  color: #808080;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-bottom: 8%;
+}
+
+.gridKnap:hover {
+  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color: #ffffff;
+}
+
+.gridKnap:active {
+  position: relative;
+  top: 1px;
+}
+
+
+/*Footer*/
+.footerIconer {
+  margin-top: 6.5%;
+  display: flex;
+}
+
+.footerIconer .hr-line {
+  width: 100%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 1px solid #000;
+}
+
+.footerIconer .hr-icon {
+  position: relative;
+  top: 3px;
+  color: #000000;
+}
+
+.footerGrid {
+  margin-top: 1rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 2rem;
+}
+
+.footerGrid a {
+  text-decoration: none;
+  color: black;
+}
+
 /*Smaller screens */
 @media screen and (max-width: 1280px) {
   .nav-links {
@@ -766,6 +862,36 @@ border: none;
     padding: 20px;
     margin: 10px;
   }
+
+  .trioGrid,
+  .strioGrid,
+  .storiesGrid,
+  .instagramGrid,
+  .footerGrid,
+  .usageGrid,
+  .produktGrid {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .certifikatGrid {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .storiesLogo {
+    width: 30%;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .tabcontent {
+    width: 100%;
+    text-align: center;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -860,162 +986,4 @@ ul li ul:hover {
   to {
     opacity: 1;
   }
-}
-
-/*striberHero*/
-.striberHero {
-  background-color: #f0f0f0;
-  height: auto;
-}
-
-.striberHero img {
-  width: 900px;
-  height: auto;
-  margin-bottom: -0.5%;
-}
-
-
-.striberHero h1 {
-  float: right;
-  margin-top: 3%;
-  margin-right: 9.5%;
-  text-align: center;
-  font-size: 35px;
-}
-
-.striberHero p {
-  float: right;
-  text-align: center;
-  margin-top: -21.8%;
-  margin-left: 3%;
-  margin-right: 7.5%;
-  font-size: 13.5px;
-}
-
-/*grid*/
-.strioGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 2rem;
-  grid-gap: 2rem;
-}
-
-.gridImgs {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  margin-top: 8%;
-}
-
-.gridKnaps1 {
-  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-  background-color: #ffffff;
-  border: 3px solid #e4e4e4;
-  display: inline-block;
-  cursor: pointer;
-  color: #808080;
-  font-size: 17px;
-  padding: 16px 31px;
-  text-decoration: none;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  margin-bottom: 8%;
-}
-
-.gridKnap:hover {
-  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-  background-color: #ffffff;
-}
-
-.gridKnap:active {
-  position: relative;
-  top: 1px;
-}
-
-.gridKnaps2 {
-  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-  background-color: #ffffff;
-  border: 3px solid #e4e4e4;
-  display: inline-block;
-  cursor: pointer;
-  color: #808080;
-  font-size: 17px;
-  padding: 16px 31px;
-  text-decoration: none;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  margin-bottom: 8%;
-}
-
-.gridKnap:hover {
-  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-  background-color: #ffffff;
-}
-
-.gridKnap:active {
-  position: relative;
-  top: 1px;
-}
-
-.gridKnaps3 {
-  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-  background-color: #ffffff;
-  border: 3px solid #e4e4e4;
-  display: inline-block;
-  cursor: pointer;
-  color: #808080;
-  font-size: 17px;
-  padding: 16px 31px;
-  text-decoration: none;
-  right: 15%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  margin-bottom: 8%;
-}
-
-.gridKnap:hover {
-  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-  background-color: #ffffff;
-}
-
-.gridKnap:active {
-  position: relative;
-  top: 1px;
-}
-
-/*Footer*/
-.footerIconer {
-  margin-top: 6.5%;
-  display: flex;
-}
-
-.footerIconer .hr-line {
-  width: 100%;
-  position: relative;
-  margin: 15px;
-  border-bottom: 1px solid #000;
-}
-
-.footerIconer .hr-icon {
-  position: relative;
-  top: 3px;
-  color: #000000;
-}
-
-.footerGrid {
-  margin-top: 1rem;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 2rem;
-}
-
-.footerGrid a {
-  text-decoration: none;
-  color: black;
 }
