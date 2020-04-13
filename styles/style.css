@@ -220,11 +220,10 @@ ul li ul:hover {
   text-align: center;
   text-align-last: center;
   position: absolute;
-  width: 25%;
-  margin-left: 20px;
-  top: 5%;
-  color: white;
-  font-size: 20px;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .trioGrid {
@@ -515,10 +514,12 @@ ul li ul:hover {
 }
 
 .usageGrid {
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-left: 3rem;
   margin-right: 3rem;
+  grid-gap: 3rem;
 }
 
 .usageGridItem {
@@ -760,19 +761,21 @@ ul li ul:hover {
 .striberHero {
   background-color:
     #f0f0f0;
-  display: inline-flex;
-  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
 }
 
-.striberHero img {
-  width: 900px;
+.striberHeroImg {
+  width: 100%;
   height: auto;
 }
 
 .striberText {
-  width: 30%;
   text-align: center;
-  margin-left: 10rem;
+  margin: auto;
+  width: 70%;
+
 }
 
 
@@ -878,7 +881,8 @@ ul li ul:hover {
   .instagramGrid,
   .footerGrid,
   .usageGrid,
-  .produktGrid {
+  .produktGrid,
+  .striberHero {
     grid-template-columns: repeat(1, 1fr);
 
   }
@@ -902,6 +906,11 @@ ul li ul:hover {
 
   .produktText {
     width: 100%;
+  }
+
+  .striberText {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
 }
