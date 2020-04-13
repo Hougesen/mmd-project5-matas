@@ -52,7 +52,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 3;
+  z-index: 1;
 }
 
 .headContainer img {
@@ -64,7 +64,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-top: 1em;
+
 }
 
 .headContainerIcons img {
@@ -200,10 +200,6 @@ ul li ul:hover {
   background-color: #404040;
   margin: 5px;
   transition: all 0.3s ease;
-}
-
-.burger div:hover {
-  background: crimson;
 }
 
 .matasHero {
@@ -911,8 +907,8 @@ border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    transform: translateX(100%);
+    width: 70%;
+    transform: translateX(-150%);
     transition: transform 0.5s ease-in;
   }
 
@@ -937,9 +933,13 @@ ul li ul:hover {
     justify-content: flex-start;
   }
 
-  .headContainer {
-    margin-right: 6em;
-
+  .headContainer img {
+    height: 38px;
+    width: auto;
+  }
+  .headContainerIcons img {
+    height: 32px;
+    width: auto;
   }
 
   .kategoriGrid-container {
@@ -959,7 +959,7 @@ ul li ul:hover {
 }
 
 .nav-active {
-  transform: translateX(0%);
+  transform: translateX(45%);
 }
 
 @keyframes navLinkFade {
