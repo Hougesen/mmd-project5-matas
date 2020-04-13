@@ -143,11 +143,10 @@ input[type=text]:hover {
 }
 
 .nav-links li {
+  position: relative;
   list-style: none;
-  width: 200px;
-  height: 45px;
-  opacity: .8;
-  line-height: 40px;
+  opacity: 1;
+  padding: 5px;
 }
 
 .nav-links a {
@@ -165,15 +164,21 @@ input[type=text]:hover {
   text-decoration: underline;
 }
 
-ul li ul li {
-  /*nr 2 liste skal ikke vises*/
+.nav-links li ul {
+	background: #F6F6F6;
+	visibility: hidden;
+  opacity: 0;
+  min-width: 12rem;
+  padding: 10px;
+	position: absolute;
   display: none;
 }
 
-ul li:hover ul li {
-  /*hover er targeted den første ul li, og på hover dukker den anden ul li op*/
+.nav-links  li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 0.8;
   display: block;
-  background-color: #F6F6F6;
 }
 
 .burger {
@@ -780,6 +785,10 @@ ul li:hover ul li {
     font-size: 12px;
     color: #808080;
   }
+  .nav-links  li:hover > ul,
+ul li ul:hover {
+  display: none;
+}
 
   .burger {
     display: block;
