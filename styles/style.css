@@ -554,6 +554,12 @@ ul li ul:hover {
 .hudteststeps figure img {
   width: 250px;
 }
+<<<<<<< HEAD
+#tagtesten{
+text-align: center;
+margin: 20px;
+border: none;
+=======
 
 #tagtestenbtn button {
   text-align: center;
@@ -561,7 +567,17 @@ ul li ul:hover {
   font-size: 20pt;
   padding: 5px;
   background-color: #fed6d7
+>>>>>>> bb124147eeed0c311b46d16efd47426b050b3e8d
 }
+#tagtestenbtn{
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 15pt;
+  padding: 5px;
+  background-color: #fed6d7
+}
+
 
 /*Hvoer effekt*/
 .hvr-underline-from-center {
