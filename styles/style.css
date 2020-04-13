@@ -91,49 +91,7 @@ input[type=text]:hover {
   width: 20%;
 }
 
-/*search bar kommer her ikke færdig
 
-.search-bar {
-    float: right;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #e2e2e2;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-}
-
-.search-bar:hover>.search-text {
-    width: 240px;
-    padding: 0 6px;
-}
-
-.search-btn {
-    color: salmon;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.search-text {
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-}
-*/
 .navContainer {
   display: flex;
   justify-content: space-around;
