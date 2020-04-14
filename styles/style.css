@@ -132,7 +132,7 @@ ul li ul:hover {
   height: 16px;
   border: none;
   transition: 1s ease;
-  background-image: url(/assets/icons/search.svg);
+  background-image: url("../assets/icons/search.svg");
   background-repeat: no-repeat;
 }
 .nav-links input[type="text"]:focus {
