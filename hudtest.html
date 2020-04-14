@@ -139,7 +139,41 @@
         <button class="knap1">TAG TESTEN</button>
     </div>
 
+    <section class="produktInfo">
+        <!--Se https://www.w3schools.com/howto/howto_js_tabs.asp for documentation-->
+        <div class="tab">
+            <button class="tablinks" onclick="openProduktInfo(event, 'ekspertrodgivning')"
+                id="defaultOpen">EKSPERTRÅDGIVNING</button>
+            <button class="tablinks" onclick="openProduktInfo(event, 'viden')">VIDEN</button>
+            <button class="tablinks" onclick="openProduktInfo(event, 'anbefalinger')">ANBEFALINGER</button>
+        </div>
 
+        <div id="ekspertrodgivning" class="tabcontent">
+            <p>Når du har gennemført testen, bliver den sendt til en af vores hudplejeeksperter.
+              Hun analyserer dine svar og udarbejder på baggrund af dem en hudplejerutine som passer præcis til dine behov og ønsker.
+              Du vil også få tilsendt en individuel hudanalyse der kortlægger din hudtype og hudtilstand, og som er spækket med tips
+              til generel pleje af din hud.
+</p>
+
+        </div>
+
+        <div id="viden" class="tabcontent">
+            <p>Testen tager afsæt i vores mangeårige ekspertise inden for hud, hudpleje og hudproblemer og er udviklet i
+              samarbejde med vores dygtigste materialister samt en kemiingeniør. Du er dermed sikret rådgivning af meget
+              høj kvalitet, hvor en dyb forståelse af din hud kombineres med ekspertise om hudplejeprodukter og deres virkning.
+</p>
+
+        </div>
+
+        <div id="anbefalinger" class="tabcontent">
+            <p>Din hud er unik og fortjener kun det bedste. Derfor tilbyder vi dig at sammensætte en hudplejerutine som
+              passer netop til dig. <br> Vi tager højde for din huds behov og dine personlige ønsker. Det handler om at
+              sikre din hud de bedste betingelser for at være sund og smuk!<br> Rigtig god fornøjelse! Vi håber, at du nu
+              er godt på vej mod din drømmehud.
+
+            </p>
+        </div>
+    </section>
 
 
     <footer>
