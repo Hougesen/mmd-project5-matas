@@ -695,6 +695,7 @@ ul li ul:hover {
 .kategoriPicker-container {
     display: grid;
     justify-content: center;
+    margin-top: 50px;
     padding: 20px;
     grid-template-columns: auto;
     color: #808080;
