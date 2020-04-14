@@ -919,9 +919,25 @@ ul li ul:hover {
     width: 100%;
 }
 
+.produktBilledeDiv {
+    width: 100%;
+}
+
 /*Smaller screens */
 
 @media screen and (max-width: 1280px) {
+    .ekstraBilleder {
+        display: none;
+    }
+
+    .produktBilledeDiv {
+        text-align: center;
+    }
+
+    .produktBillede {
+        width: 50%;
+    }
+
     .nav-links {
         width: 100%;
     }
