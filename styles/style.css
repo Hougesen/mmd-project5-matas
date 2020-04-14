@@ -186,6 +186,20 @@ ul li ul:hover {
 
 #shopher {
     color: black;
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
+    border: 3px solid #e4e4e4;
+    display: inline-block;
+    cursor: pointer;
+    color: #808080;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin-bottom: 8%;
 }
 
 .trioGrid {
