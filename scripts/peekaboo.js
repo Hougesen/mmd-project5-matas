@@ -5,7 +5,7 @@ function yScrollHandler() {
     
     exit.addEventListener('click', () => {
         if(win.style.left){
-            win.style.left = "-852px";
+             win.style.display = "none"
         } else {
             win.style.left = "-852px";
         }
