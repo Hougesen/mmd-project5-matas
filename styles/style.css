@@ -57,6 +57,7 @@ html {
 .headContainer img {
     height: 48px;
     width: auto;
+    margin-top: 20px;
 }
 
 .headContainerIcons {
@@ -646,8 +647,9 @@ ul li ul:hover {
 }
 
 #newmail {
-  width: 360px;
+    width: 360px;
 }
+
 
 /*HUDTEST SLUT*/
 
