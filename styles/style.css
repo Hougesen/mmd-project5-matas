@@ -606,6 +606,8 @@ ul li ul:hover {
     background-color: #fed6d7;
 }
 
+/*HUDTEST SLUT*/
+
 /*Hvoer effekt*/
 
 .hvr-underline-from-center {
@@ -822,7 +824,13 @@ ul li ul:hover {
     grid-template-columns: repeat(3, 1fr);
     margin: 2rem;
     grid-gap: 2rem;
+    text-align: center;
 }
+
+.imgContainer {
+  width: 350px;
+  text-align: center;
+  }
 
 .gridImgs {
     width: 100%;
