@@ -1,7 +1,6 @@
 /*Husk aldrig at bruge ÆØÅ til class/id/filnavne eftersom det kan fucke op hvis editoren ikke understøtter det*/
 
 @charset "UTF-8";
-
 * {
     box-sizing: border-box;
     line-height: 1.6;
@@ -158,7 +157,7 @@ ul li ul:hover {
 }
 
 .matasHero {
-    background-image: url("../assets/images/optimeret/matasheader.jpg");
+    background-image: url("../assets/images/originale/sabe.jpg");
     height: 72vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -350,6 +349,7 @@ ul li ul:hover {
     width: 100%;
 }
 
+
 /*Produktside del*/
 
 .breadcrumb {
@@ -382,6 +382,7 @@ ul li ul:hover {
     text-decoration: underline;
 }
 
+
 /*Første section af produktsiden bestånde af produktbillede + call to action*/
 
 .matasLogo {
@@ -401,14 +402,12 @@ ul li ul:hover {
     display: grid;
     grid-template-columns: 8% auto auto;
     grid-gap: 1rem;
-
 }
 
 .produktBillede {
     width: 80%;
     height: auto;
 }
-
 
 .produktText {
     text-align: center;
@@ -445,6 +444,7 @@ ul li ul:hover {
     margin-bottom: auto;
 }
 
+
 /*Produktinfo section*/
 
 .produktInfo {
@@ -456,6 +456,7 @@ ul li ul:hover {
     text-align: center;
     overflow: hidden;
 }
+
 
 /* Style the buttons inside the tab */
 
@@ -470,13 +471,16 @@ ul li ul:hover {
     font-size: 17px;
 }
 
+
 /* Change background color of buttons on hover */
+
 
 /* Create an active/current tablink class */
 
 .tab button.active {
     text-decoration: underline;
 }
+
 
 /* Style the tab content */
 
@@ -489,6 +493,7 @@ ul li ul:hover {
     margin: auto;
     font-weight: 300;
 }
+
 
 /*Påførings sektion*/
 
@@ -563,7 +568,9 @@ ul li ul:hover {
     margin-left: 40px;
 }
 
+
 /*Produktside slut*/
+
 
 /*HUDTEST SIDE*/
 
@@ -582,6 +589,7 @@ ul li ul:hover {
     flex-wrap: wrap;
 }
 
+
 /*tilretter teksten under billederne*/
 
 .hudteststeps figure {
@@ -589,6 +597,7 @@ ul li ul:hover {
     text-align: center;
     width: 250px;
 }
+
 
 /*størrelsen på billderne*/
 
@@ -611,7 +620,9 @@ ul li ul:hover {
     background-color: #fed6d7;
 }
 
+
 /*HUDTEST SLUT*/
+
 
 /*Hvoer effekt*/
 
@@ -649,6 +660,7 @@ ul li ul:hover {
     right: 0;
 }
 
+
 /*Kategorier*/
 
 .kategoriSide-wrapper {
@@ -677,7 +689,9 @@ ul li ul:hover {
     margin-bottom: 20px;
 }
 
+
 /* radiobutton*/
+
 
 /* The container */
 
@@ -695,6 +709,7 @@ ul li ul:hover {
     text-align: left;
 }
 
+
 /* Hide the browser's default checkbox */
 
 .radio-container input {
@@ -704,6 +719,7 @@ ul li ul:hover {
     height: 0;
     width: 0;
 }
+
 
 /* Create a custom checkbox */
 
@@ -716,17 +732,20 @@ ul li ul:hover {
     background-color: #eee;
 }
 
+
 /* On mouse-over, add a grey background color */
 
 .radio-container :hover input~.checkmark {
     background-color: #ccc;
 }
 
+
 /* When the checkbox is checked, add a blue background */
 
 .radio-container input:checked~.checkmark {
     background-color: #dadada;
 }
+
 
 /* Create the checkmark/indicator (hidden when not checked) */
 
@@ -736,11 +755,13 @@ ul li ul:hover {
     display: none;
 }
 
+
 /* Show the checkmark when checked */
 
 .radio-container input:checked~.checkmark:after {
     display: block;
 }
+
 
 /* Style the checkmark/indicator */
 
@@ -755,6 +776,7 @@ ul li ul:hover {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 
 /*KategoriGrid*/
 
@@ -785,6 +807,7 @@ ul li ul:hover {
     padding: 50px;
 }
 
+
 /***********************Kategoriside*******************************/
 
 .btn {
@@ -809,6 +832,7 @@ ul li ul:hover {
     border-width: 1px;
 }
 
+
 /*striberHero*/
 
 .striberHero {
@@ -828,6 +852,7 @@ ul li ul:hover {
     width: 70%;
 }
 
+
 /*grid*/
 
 .strioGrid {
@@ -837,8 +862,6 @@ ul li ul:hover {
     grid-gap: 2rem;
     text-align: center;
 }
-
-
 
 .gridImgs {
     width: 100%;
@@ -869,6 +892,7 @@ ul li ul:hover {
     background-color: #ffffff;
 }
 
+
 /*Footer*/
 
 .footerIconer {
@@ -892,12 +916,10 @@ ul li ul:hover {
 .footerGrid {
     margin-top: 1rem;
     margin-left: 10rem;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 2rem;
     text-align: left;
-
 }
 
 .footerGrid a {
@@ -911,7 +933,6 @@ ul li ul:hover {
 }
 
 .ekstraBilleder {
-
     width: 100%;
 }
 
@@ -923,40 +944,34 @@ ul li ul:hover {
     width: 100%;
 }
 
+
 /*Smaller screens */
 
 @media screen and (max-width: 1280px) {
     .ekstraBilleder {
         display: none;
     }
-
     .produktBilledeDiv {
         text-align: center;
     }
-
     .produktBillede {
         width: 50%;
     }
-
     .nav-links {
         width: 100%;
     }
-
     .kategoriGrid-container {
         grid-template-columns: auto auto;
         padding: 10px;
     }
-
     .radio-container {
         font-size: 16px;
     }
-
     .kategoriPicker-container {
         width: 200px;
         padding: 20px;
         margin: 10px;
     }
-
     .trioGrid,
     .strioGrid,
     .storiesGrid,
@@ -967,27 +982,21 @@ ul li ul:hover {
     .striberHero {
         grid-template-columns: repeat(1, 1fr);
     }
-
     .certifikatGrid {
         grid-template-columns: repeat(2, 1fr);
     }
-
     .storiesLogo {
         width: 30%;
     }
-
     .banner {
         display: none;
     }
-
     .tabcontent {
         width: 90%;
     }
-
     .produktText {
         width: 100%;
     }
-
     .striberText {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -1008,50 +1017,40 @@ ul li ul:hover {
         transition: transform 0.5s ease-in;
         z-index: 1;
     }
-
     .nav-links li {
         opacity: 0;
     }
-
     .nav-links a {
         font-size: 12px;
         color: #808080;
     }
-
     .nav-links li:hover>ul,
     ul li ul:hover {
         display: none;
     }
-
     .burger {
         display: block;
         position: fixed;
     }
-
     .navContainer {
         justify-content: flex-start;
     }
-
     .headContainer img {
         height: 38px;
         width: auto;
     }
-
     .headContainerIcons img {
         height: 32px;
         width: auto;
     }
-
     .kategoriGrid-container {
         grid-template-columns: auto;
         padding: 10px;
         margin-left: 0px;
     }
-
     .radio-container {
         font-size: 12px;
     }
-
     .kategoriPicker-container {
         width: 200px;
         padding: 0px;
@@ -1067,7 +1066,6 @@ ul li ul:hover {
         opacity: 0;
         transform: translateX(40px);
     }
-
     to {
         opacity: 1;
         transform: translateX(0px);
@@ -1090,7 +1088,6 @@ ul li ul:hover {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
