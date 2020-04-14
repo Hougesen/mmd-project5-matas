@@ -476,7 +476,7 @@ ul li ul:hover {
 
 /* Style the tab content */
 
-.tabcontent {
+.tabContent {
     text-align-last: center;
     width: 60%;
     display: none;
@@ -936,7 +936,7 @@ ul li ul:hover {
         display: none;
     }
 
-    .tabcontent {
+    .tabContent {
         width: 90%;
     }
 
