@@ -591,6 +591,7 @@ ul li ul:hover {
     font-size: 40px;
     top: 50%;
     left: 50%;
+    color: #F8E4F3;
     transform: translate(-50%, -50%);
 }
 
@@ -598,7 +599,7 @@ ul li ul:hover {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #707070;
+    color: #000000;
 }
 
 .hudteststeps {
