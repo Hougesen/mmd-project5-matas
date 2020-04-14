@@ -173,7 +173,7 @@ ul li ul:hover {
     position: absolute;
     font-size: 35px;
     color: #ffffff;
-    top: 40%;
+    top: 50%;
     left: 20%;
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, .2);
@@ -181,9 +181,13 @@ ul li ul:hover {
 }
 
 #farvettitel {
-    color: #FFFDBE;
-    background: rgba(245, 152, 225, 0.2);
+    color: #707070;
+    background: rgba(255, 253, 190, 0.2);
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+#shopher {
+    color: black;
 }
 
 .trioGrid {
