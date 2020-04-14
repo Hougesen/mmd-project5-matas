@@ -345,6 +345,11 @@ ul li ul:hover {
     width: 100%;
 }
 
+.striberImgContainer {
+    position: relative;
+    width: 100%;
+}
+
 /*Produktside del*/
 
 .breadcrumb {
@@ -764,7 +769,8 @@ ul li ul:hover {
     max-width: 350px;
     height: auto;
 }
-.kategori-hr{
+
+.kategori-hr {
     color: black;
     margin-left: 20px;
     width: 90%;
@@ -832,10 +838,7 @@ ul li ul:hover {
     text-align: center;
 }
 
-.imgContainer {
-  width: 350px;
-  text-align: center;
-  }
+
 
 .gridImgs {
     width: 100%;
@@ -864,11 +867,6 @@ ul li ul:hover {
 .gridKnap:hover {
     background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
     background-color: #ffffff;
-}
-
-.gridKnap:active {
-    position: relative;
-    top: 1px;
 }
 
 /*Footer*/
