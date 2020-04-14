@@ -394,17 +394,16 @@ ul li ul:hover {
     margin-left: 4rem;
     margin-right: 4rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 8% auto auto;
+    grid-gap: 1rem;
+
 }
 
 .produktBillede {
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 
-.produktBilledeDiv {
-    text-align: center;
-}
 
 .produktText {
     text-align: center;
@@ -509,12 +508,13 @@ ul li ul:hover {
     text-align: center;
     margin: auto;
     width: 50%;
+    height: 100%;
 }
 
 .usageGridImg {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 #peekaboo {
@@ -880,15 +880,32 @@ ul li ul:hover {
 
 .footerGrid {
     margin-top: 1rem;
-    text-align: center;
+    margin-left: 10rem;
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 2rem;
+    text-align: left;
+
 }
 
 .footerGrid a {
     text-decoration: none;
     color: black;
+}
+
+.footerGrid ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.ekstraBilleder {
+
+    width: 100%;
+}
+
+.ekstraBillederImg {
+    width: 100%;
 }
 
 /*Smaller screens */
