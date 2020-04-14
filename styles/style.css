@@ -588,11 +588,15 @@ ul li ul:hover {
     text-align: center;
     text-align-last: center;
     position: absolute;
-    font-size: 40px;
-    top: 50%;
+    font-size: 35px;
+    top: 20%;
     left: 50%;
-    color: #F8E4F3;
+    color: #FCF3FA;
     transform: translate(-50%, -50%);
+}
+
+#hudtesttekst {
+    line-height: 39pt;
 }
 
 .hudtesttitle {
