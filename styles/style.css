@@ -573,6 +573,25 @@ ul li ul:hover {
 
 
 /*HUDTEST SIDE*/
+.hudtestHero {
+    background-image: url("../assets/images/originale/sabe.jpg");
+    height: 72vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.hudtestHeroText {
+    text-align: center;
+    text-align-last: center;
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .hudtesttitle {
     text-align: center;
