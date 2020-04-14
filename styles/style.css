@@ -599,16 +599,10 @@ ul li ul:hover {
     line-height: 39pt;
 }
 
-.hudtesttitle {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #000000;
-}
-
 .hudteststeps {
     color: #707070;
     padding: 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
