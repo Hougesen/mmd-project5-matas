@@ -169,6 +169,8 @@
  }
 
  .matasHeroText {
+     display: flex;
+     flex-direction: column;
      text-align: center;
      text-align-last: center;
      position: absolute;
@@ -183,7 +185,8 @@
      color: #707070;
      background: rgba(255, 253, 190, 0.2);
      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-     margin-bottom: 40px;
+     margin-bottom: 8%;
+     font-size: 1em;
  }
 
  #shopher {
@@ -194,7 +197,7 @@
      display: inline-block;
      cursor: pointer;
      color: #808080;
-     font-size: 17px;
+     font-size: 0.5em;
      padding: 16px 31px;
      text-decoration: none;
      left: 50%;
@@ -202,7 +205,8 @@
      transform: translate(-50%, -50%);
      -ms-transform: translate(-50%, -50%);
      margin-bottom: 8%;
-     margin-top: 50px;
+     margin-top: 8%;
+     
  }
 
  .trioGrid {
@@ -1089,6 +1093,10 @@
          width: 50%;
          margin-right: 15px;
      }
+     .matasHeroText{
+        left:35%;
+        font-size: 2em;
+    }
  }
 
  @media screen and (max-width: 768px) {
@@ -1157,6 +1165,14 @@
      #peekaboo {
          width: 80%;
          padding: 5px;
+     }
+     .matasHeroText{
+         left:40%;
+         font-size: 1.8em;
+     }
+     #shopher{
+         margin-top:12%;
+         font-size: 12px;
      }
  }
 
