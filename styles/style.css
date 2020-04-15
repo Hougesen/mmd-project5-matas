@@ -563,19 +563,20 @@ ul li ul:hover {
     bottom: 25px;
     left: -852px;
     background: #ffffff;
-    width: 500px;
-    height: 230px;
+    padding: 10px;
+    width: 35%;
+    height: auto;
     border-top-right-radius: 70px;
     border-bottom-right-radius: 70px;
-    border-top: solid 1px #808080;
-    border-right: solid 1px #808080;
-    border-bottom: solid 1px #808080;
+    border-top: solid 2px #808080;
+    border-right: solid 2px #808080;
+    border-bottom: solid 2px #808080;
     z-index: 1;
     margin-right: 10px;
 }
 
 #peekaboo a {
-    color: #000000;
+    color: #ffc4c5;
     text-decoration: none;
     font-size: 20px;
     font-weight: 200px;
@@ -741,11 +742,10 @@ ul li ul:hover {
     margin-bottom: 20px;
 }
 
-.kategoriH2 {
+.kategoriH2{
     font-size: 60px;
     font-weight: bold;
 }
-
 
 /* radiobutton*/
 
@@ -844,7 +844,7 @@ ul li ul:hover {
 }
 
 .kategori-img {
-    width: 100%;
+    width:100%;
     max-width: 350px;
     height: auto;
 }
@@ -860,7 +860,7 @@ ul li ul:hover {
     justify-content: center;
     text-align: center;
     grid-template-columns: auto auto auto;
-    grid-gap: 20px;
+    grid-gap: 40px;
     padding: 50px;
 }
 
@@ -882,7 +882,7 @@ ul li ul:hover {
 .dot {
     height: 30px;
     width: 30px;
-    background-color: #fcd6d3;
+    background-color:rgb(255, 238, 111);
     border-radius: 50%;
     display: inline-block;
     border-style: solid;
@@ -1058,6 +1058,10 @@ ul li ul:hover {
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+    #peekaboo {
+        width: 50%;
+        margin-right: 15px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1111,6 +1115,10 @@ ul li ul:hover {
     .kategoriPicker-container {
         width: 200px;
         padding: 0px;
+    }
+    #peekaboo {
+        width: 80%;
+        padding: 5px;
     }
 }
 
