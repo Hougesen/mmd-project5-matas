@@ -224,6 +224,12 @@
      object-fit: contain;
  }
 
+ .certifikatGridImg {
+     width: 80%;
+     height: auto;
+     object-fit: contain;
+ }
+
  .banner {
      /*så den ikke støder ind i knappen over*/
      padding-top: 3rem;
