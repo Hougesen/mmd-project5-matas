@@ -160,7 +160,7 @@
 
  .matasHero {
      background-image: url("../assets/images/originale/sabe.jpg");
-     height: 72vh;
+     height: 60vh;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -267,6 +267,11 @@
 
  .certifikatSection {
      text-align: center;
+ }
+
+ .certifikatSection a {
+     text-decoration: none;
+     color: black;
  }
 
  .certifikatGrid {
