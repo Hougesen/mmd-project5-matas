@@ -933,13 +933,15 @@
  .strioGrid {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     margin: 2rem;
-     grid-gap: 2rem;
+     margin: 3rem;
+     grid-gap: 3rem;
+     margin-left: 8rem;
+     margin-right: 8rem;
      text-align: center;
  }
 
  .gridImgs {
-     width: 100%;
+     width: 90%;
      height: auto;
      object-fit: contain;
      margin-top: 8%;
