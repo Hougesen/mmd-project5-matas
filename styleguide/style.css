@@ -1,68 +1,68 @@
 @charset "UTF-8";
 
 * {
-    box-sizing: border-box;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    font-family: mr-eaves-modern, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-family: mr-eaves-modern, sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body,
 html {
-    height: 100%;
-    padding-top: 0;
-    width: 100%;
+  height: 100%;
+  padding-top: 0;
+  width: 100%;
 }
 
 .sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #d7e8f2;
-    overflow-x: hidden;
-    padding-top: 20px;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #d7e8f2;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #111;
-    display: block;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #111;
+  display: block;
 }
 
 .sidenav a:hover {
-    background-color: #a2a7a5;
+  background-color: #a2a7a5;
 }
 
 /*Til at indikere hvilken side brugeren er på*/
 
 .active {
-    background-color: #a2a7a5;
-    color: white;
+  background-color: #a2a7a5;
+  color: white;
 }
 
 .main {
-    margin-left: 160px;
-    font-size: 20px;
-    padding: 0px 10px;
+  margin-left: 160px;
+  font-size: 20px;
+  padding: 0px 10px;
 }
 
 .sidenavLogo {
-    text-align: center;
+  text-align: center;
 }
 
 .logo {
-    width: 90%;
-    height: auto;
+  width: 90%;
+  height: auto;
 }
 
 /* Abdul kode section*/
@@ -70,219 +70,219 @@ html {
 /*BOX1*/
 
 .textBox1 {
-    height: auto;
-    width: 100%;
-    padding: 1em;
-    background: #fed6d7;
-    color: #707070;
+  height: auto;
+  width: 100%;
+  padding: 1em;
+  background: #fed6d7;
+  color: #707070;
 }
 
 .textBox1aelement {
-    text-decoration: none;
-    color: #707070;
+  text-decoration: none;
+  color: #707070;
 }
 
 .textBox1alink {
-    text-decoration: underline dotted;
-    color: #707070;
+  text-decoration: underline dotted;
+  color: #707070;
 }
 
 /*BOX2*/
 
 .textBox2 {
-    height: auto;
-    width: 100%;
-    margin-top: 1em;
-    padding: 1em;
-    background: url(/assets/images/produktbild.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #f5f5f5;
+  height: auto;
+  width: 100%;
+  margin-top: 1em;
+  padding: 1em;
+  background: url(/assets/images/produktbild.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f5f5f5;
 }
 
 .textBox2aelement {
-    text-decoration: none;
-    color: #f5f5f5;
+  text-decoration: none;
+  color: #f5f5f5;
 }
 
 .textBox2alink {
-    text-decoration: underline dotted;
-    color: #f5f5f5;
+  text-decoration: underline dotted;
+  color: #f5f5f5;
 }
 
 /*HOVER*/
 
 .hvr-underline-from-center {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
 }
 
 .hvr-underline-from-center:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 51%;
-    right: 51%;
-    bottom: 0;
-    background: #f5f5f5;
-    height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #f5f5f5;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .hvr-underline-from-center:hover:before,
 .hvr-underline-from-center:focus:before,
 .hvr-underline-from-center:active:before {
-    left: 0;
-    right: 0;
+  left: 0;
+  right: 0;
 }
 
 .imgs {
-    height: 96px;
-    width: 96px;
+  height: 96px;
+  width: 96px;
 }
 
 .socialicons {
-    font-size: 96px;
+  font-size: 96px;
 }
 
 code {
-    background-color: #eee;
-    color: #000000;
-    border-radius: 3px;
-    font-family: courier, monospace;
-    padding: 0 3px;
+  background-color: #eee;
+  color: #000000;
+  border-radius: 3px;
+  font-family: courier, monospace;
+  padding: 0 3px;
 }
 
 /* Abdul kode section*/
 
 hr {
-    height: 6px;
-    background: #d7e8f2;
-    margin-bottom: 2%;
+  height: 6px;
+  background: #d7e8f2;
+  margin-bottom: 2%;
 }
 
 .styleGuideGrid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .styleGuideGridItem {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 .knap1 {
-    background: linear-gradient(to bottom, #fed6d7 5%, #fed6d7 100%);
-    background-color: #fed6d7;
-    border: 1px solid #fed6d7;
-    display: inline-block;
-    cursor: pointer;
-    color: #808080;
-    font-family: Arial;
-    font-size: 17px;
-    padding: 16px 31px;
-    text-decoration: none;
+  background: linear-gradient(to bottom, #fed6d7 5%, #fed6d7 100%);
+  background-color: #fed6d7;
+  border: 1px solid #fed6d7;
+  display: inline-block;
+  cursor: pointer;
+  color: #808080;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
 }
 
 .knap1:hover {
-    background: linear-gradient(to bottom, #fed6d7 5%, #fed6d7 100%);
-    background-color: #fed6d7;
+  background: linear-gradient(to bottom, #fed6d7 5%, #fed6d7 100%);
+  background-color: #fed6d7;
 }
 
 .knap1:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
 }
 
 .knap2 {
-    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-    background-color: #ffffff;
-    border: 3px solid #e4e4e4;
-    display: inline-block;
-    cursor: pointer;
-    color: #808080;
-    font-size: 17px;
-    padding: 16px 31px;
-    text-decoration: none;
+  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color: #ffffff;
+  border: 3px solid #e4e4e4;
+  display: inline-block;
+  cursor: pointer;
+  color: #808080;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
 }
 
 .knap2:hover {
-    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-    background-color: #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color: #ffffff;
 }
 
 .knap2:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
 }
 
 .farveGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .farveText {
-    margin: auto;
+  margin: auto;
 }
 
 .farve1 {
-    width: 100px;
-    height: 100px;
-    border-radius: 13px;
-    background: #fed6d7;
+  width: 100px;
+  height: 100px;
+  border-radius: 13px;
+  background: #fed6d7;
 }
 
 .farve2 {
-    width: 100px;
-    height: 100px;
-    border-radius: 13px;
-    background: #f5f5f5;
+  width: 100px;
+  height: 100px;
+  border-radius: 13px;
+  background: #f5f5f5;
 }
 
 .farve3 {
-    width: 100px;
-    height: 100px;
-    border-radius: 13px;
-    background: #e4e4e4;
+  width: 100px;
+  height: 100px;
+  border-radius: 13px;
+  background: #e4e4e4;
 }
 
 .farve4 {
-    width: 100px;
-    height: 100px;
-    border-radius: 13px;
-    background: #707070;
+  width: 100px;
+  height: 100px;
+  border-radius: 13px;
+  background: #707070;
 }
 
 .farve5 {
-    width: 100px;
-    height: 100px;
-    border-radius: 13px;
-    background: #FFEE6F;
+  width: 100px;
+  height: 100px;
+  border-radius: 13px;
+  background: #ffee6f;
 }
 
 .farve6 {
-    width: 100px;
-    height: 100px;
-    border-radius: 13px;
-    background: #D7E8F2;
+  width: 100px;
+  height: 100px;
+  border-radius: 13px;
+  background: #d7e8f2;
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
+  .sidenav {
+    padding-top: 15px;
+  }
 
-    .sidenav a {
-        font-size: 18px;
-    }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
